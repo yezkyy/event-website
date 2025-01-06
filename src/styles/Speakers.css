@@ -1,16 +1,17 @@
 .speakers {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 40px;
   margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .speakers h2 {
   color: #2c3e50;
-  margin-bottom: 20px;
-  font-size: 1.8em;
+  margin-bottom: 30px;
+  font-size: 2em;
   text-align: center;
+  font-weight: bold;
 }
 
 .speakers ul {
@@ -28,7 +29,7 @@
 
 .speakers li:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .speakers li:last-child {
@@ -36,7 +37,7 @@
 }
 
 .speakers img {
-    width: 200px;
+    width: 150px;
   margin-right: 20px;
 }
 
@@ -47,10 +48,12 @@
 .speakers h3 {
   color: #3498db;
   margin-bottom: 10px;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 
 .speakers p {
   color: #7f8c8d;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  line-height: 1.5;
 }

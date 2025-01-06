@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/RegistrationForm.css";
 
 const RegistrationForm: React.FC = () => {
   const [name, setName] = useState("");
@@ -36,7 +37,7 @@ const RegistrationForm: React.FC = () => {
             required
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Register</button>
       </form>
     </section>
   );
