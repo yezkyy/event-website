@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Schedule.css";
 
 const Schedule: React.FC = () => (
   <section className="schedule">
